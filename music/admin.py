@@ -6,7 +6,7 @@ from .models import NewVideo
 
 class NewVideoAdmin(admin.ModelAdmin):
     list_display = [
-        'video_id'
+        'video_id',
         'video_title',
         'moods',
         'labeled',
